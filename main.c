@@ -1,3 +1,43 @@
+//*** esercizio 2020-03-30***
+//
+//A - scrivere la seguente funzione:
+//
+//implementare una funzione che calcola la serie di Fibonacci:
+//
+//unsigned long fibonacci(unsigned int n);
+//
+//dove:
+//fibonacci(0) = 0
+//fibonacci(1) = 1
+//fibonacci(n) = fibonacci(n-1) + fibonacci(n-2)  per n > 1
+//
+//provare a scoprire quale è il valore massimo di n per cui fibonacci(n) restituisce un valore della
+//serie corretto
+//
+//
+//B - scrivere la seguente funzione:
+//
+//unsigned long * fibonacci_array(unsigned int n);
+//
+//questa funzione restituisce un array di unsigned long di dimensione n+1 (n è l'argomento della funzione)
+//dove la cella i-ma contiene il valore di fibonacci(i).
+//
+//
+//C - main() fa queste operazioni:
+//
+//calcola fibonacci_array(39) e lo assegna alla varibile 'fibonacci_result'  // fibonacci(39) = 63245986
+//
+//fare una copia dell'array fibonacci_result in 'fibonacci_result_copy' (i due array devono avere aree di
+//memoria distinte)
+//
+//fibonacci_result_copy: fare il 'reverse' dell'array ('copiare' da esempio 004.1arrays-operations)
+//
+//su fibonacci_result_copy: applicare bubble_sort ('copiare' da esempio 004.1arrays-operations)
+//
+//confrontare fibonacci_result e fibonacci_result_copy, verificare che i due array siano uguali (scrivere
+//su stdout il risultato).
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
